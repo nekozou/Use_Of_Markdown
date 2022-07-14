@@ -6,11 +6,17 @@ by ken
 
 # Markdown/Typora教程
 
+# Typora
+
 > Typora 一直是我认为桌面端笔记应用应有的终极形态。用我之前 [一篇文章](https://sspai.com/post/54122) 中的话来说就是，「它的**功能之强大、设计之冷静、体验之美妙、理念之先进**，我认为值得所有笔记应用厂商学习。」
 >
 > Typora 是一款**支持实时预览的 Markdown 文本编辑器**。它有 OS X、Windows、Linux 三个平台的版本，并且由于仍在测试中，是**完全免费**的。Markdown 是用来编写结构化文档的一种纯文本格式，它使我们在双手不离开键盘的情况下，可以对文本进行一定程度的格式排版。
 >
 > 由于目前还没有一个权威机构对 Markdown 的语法进行规范，各应用厂商制作时遵循的 Markdown 语法也是不尽相同的。其中比较受到认可的是 [GFM 标准](https://github.github.com/gfm/)，它是由著名代码托管网站 [GitHub](https://github.com/) 所制定的。Typora 主要使用的也是 GFM 标准。同时，你还可以在 `文件 - 偏好设置 - Markdown 语法偏好 - 严格模式` 中将标准设置为「更严格地遵循 GFM 标准」。具体内容你可以在官方的 [这篇文档](http://support.typora.io/Strict-Mode/) 中查看。
+
+Typora针对markdown语法有各种快捷，可以通过状态栏查看
+
+更多资源：
 
 http://support.typora.io/Strict-Mode/
 
@@ -63,10 +69,6 @@ Typora 官网：https://typora.io/
 
 Mardown 编写 Hello World! 语法：`# Hello World!`
 
-将该代码格式粘贴到 Typora 效果如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/md1.gif](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/md1.gif)
-
 # Markdown 标题
 
 ## 1、使用 = 和 - 标记一级和二级标题
@@ -81,10 +83,6 @@ Mardown 编写 Hello World! 语法：`# Hello World!`
 -----------------
 ```
 
-显示效果如下图：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled.png)
-
 ## **使用 # 号标记**
 
 使用 **`#`** 号可表示 1-6 级标题，一级标题对应一个 **`#`** 号，二级标题对应两个 **`#`** 号，以此类推。
@@ -98,17 +96,11 @@ Mardown 编写 Hello World! 语法：`# Hello World!`
 ###### 六级标题
 ```
 
-显示效果如下图：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%201.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%201.png)
-
 # Markdown 段落格式
 
 ## Markdown 段落
 
 Markdown 段落没有特殊的格式，直接编写文字就好，**段落的换行是使用两个以上空格加上回车**。
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%202.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%202.png)
 
 ---
 
@@ -125,17 +117,13 @@ __粗体文本__
 ___粗斜体文本___
 ```
 
-显示效果如下所示：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%203.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%203.png)
-
 ---
 
 ## 分隔线
 
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线:
 
-```
+```markdown
 ***
 
 * * *
@@ -147,17 +135,13 @@ ___粗斜体文本___
 ----------
 ```
 
-显示效果如下所示：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%204.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%204.png)
-
 ---
 
 ## 删除线
 
 如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 **~~** 即可，实例如下：
 
-```
+```markdown
 RUNOOB.COM
 GOOGLE.COM
 ~~BAIDU.COM~~
@@ -165,15 +149,13 @@ GOOGLE.COM
 
 显示效果如下所示：
 
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%205.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%205.png)
-
 ---
 
 ## 下划线
 
 下划线可以通过 HTML 的 **<u>** 标签来实现：
 
-```
+```markdown
 <u>带下划线文本</u>
 ```
 
@@ -205,7 +187,7 @@ Markdown 脚注的格式如下:
 
 [^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
 
-例子：
+**例子：**
 
 1. I LOVE TYPORA AND MARKDOWN![^PS]
 
@@ -243,10 +225,6 @@ Markdown 支持有序列表和无序列表。
 3. 第三项
 ```
 
-显示结果如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%207.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%207.png)
-
 ### **列表嵌套**
 
 列表嵌套只需在子列表中的选项前面添加四个空格即可：
@@ -260,10 +238,6 @@ Markdown 支持有序列表和无序列表。
     - 第二项嵌套的第二个元素
 ```
 
-显示结果如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%208.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%208.png)
-
 # Markdown 区块
 
 Markdown 区块引用是在段落开头使用 **`>`** 符号 ，然后后面紧跟一个**空格**符号：
@@ -274,10 +248,6 @@ Markdown 区块引用是在段落开头使用 **`>`** 符号 ，然后后面�
 > 学的不仅是技术更是梦想
 ```
 
-显示结果:
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%209.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%209.png)
-
 另外区块是可以嵌套的，一个 **`>`** 符号是最外层，两个 **`>`** 符号是第一层嵌套，以此类推：
 
 ```
@@ -285,10 +255,6 @@ Markdown 区块引用是在段落开头使用 **`>`** 符号 ，然后后面�
 > > 第一层嵌套
 > > > 第二层嵌套
 ```
-
-显示结果如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2010.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2010.png)
 
 ### **区块中使用列表**
 
@@ -303,10 +269,6 @@ Markdown 区块引用是在段落开头使用 **`>`** 符号 ，然后后面�
 > + 第三项
 ```
 
-显示结果如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2011.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2011.png)
-
 ### **列表中使用区块**
 
 如果要在列表项目内放进区块，那么就需要在 **`>`** 前添加四个空格的缩进。
@@ -319,10 +281,6 @@ Markdown 区块引用是在段落开头使用 **`>`** 符号 ，然后后面�
     > 学的不仅是技术更是梦想
 * 第二项
 ```
-
-显示结果如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2012.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2012.png)
 
 # Markdown 代码
 
@@ -340,25 +298,14 @@ Markdown 区块引用是在段落开头使用 **`>`** 符号 ，然后后面�
 
 代码区块使用 **4 个空格**或者一个**制表符（Tab 键）**。
 
-实例如下：
-
-![Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2013.png](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2013.png)
-
 你也可以用包裹一段代码，并指定一种语言（也可以不指定）：
 
-```
+```markdown
 ```javascript
 $(document).ready(function () {
     alert('RUNOOB');
 });
 ```
-```
-
-显示结果如下：
-
-![Untitled](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2014.png)
-```
-
 # Markdown 链接
 
 链接(Ctrl+K)使用方法如下：
@@ -450,10 +397,6 @@ Markdown 还没有办法指定图片的高度与宽度，如果你需要的话�
 <img src="[http://static.runoob.com/images/runoob-logo.png](http://static.runoob.com/images/runoob-logo.png)" width="50%">
 ```
 
-显示结果如下：
-
-![Untitled](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2017.png)
-
 # Markdown 表格
 
 Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分隔表头和其他行。
@@ -467,9 +410,36 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 | 单元格  | 单元格 |
 ```
 
-以上代码显示结果如下：
+# Markdown 复选框
 
-![Untitled](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2018.png)
+在无序列表符号后面加上[]或者[x]代表选中或者未选中情况
+
+```markdown
+- [x] Markdown  
+- [ ] JavaScript 
+12
+```
+
+或者
+
+```markdown
++ [x] Markdown  
++ [ ] JavaScript 
+12
+```
+
+或者
+
+```markdown
+* [x] Markdown  
+* [ ] JavaScript
+12
+```
+
+**效果如下：**
+
++ [x] Markdown  
++ [ ] Typora 
 
 # Markdown 高级技巧
 
@@ -482,10 +452,6 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 ```markdown
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
 ```
-
-输出结果为：
-
-![Untitled](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2019.png)
 
 ### **转义**
 
@@ -525,16 +491,12 @@ _   下划线
 
 当你需要在编辑器中插入数学公式时，可以使用两个美元符 `$$` 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：
 
-```
+```markdown
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\ \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\ \end{vmatrix} 
 {}{\style{visibility:hidden}{(x+1)(x+1)}}
 $$
 ```
-
-输出结果为：
-
-![Untitled](Markdown%20Typora%E6%95%99%E7%A8%8B%202011122f6580402cafd5a60c78a48a37/Untitled%2020.png)
 
 # typora 画流程图、时序图(顺序图)、甘特图
 
@@ -559,11 +521,8 @@ A[方形] --> B(圆角)
     C --> |a=2| E[结果2]
     F[竖向流程图]
 ```
-```
-
 **3、标准流程图源码格式：**
 
-```
 ```flow
 st=>start: 开始框
 op=>operation: 处理框
@@ -575,11 +534,8 @@ st->op->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op
 ```
-```
-
 **4、标准流程图源码格式（横向）：**
 
-```
 ```flow
 st=>start: 开始框
 op=>operation: 处理框
@@ -591,11 +547,8 @@ st(right)->op(right)->cond
 cond(yes)->io(bottom)->e
 cond(no)->sub1(right)->op
 ```
-```
-
 **5、UML时序图源码样例：**
 
-```
 ```sequence
 对象A->对象B: 对象B你好吗?（请求）
 Note right of 对象B: 对象B的描述
@@ -603,11 +556,8 @@ Note left of 对象A: 对象A的描述(提示)
 对象B-->对象A: 我很好(响应)
 对象A->对象B: 你真的好吗？
 ```
-```
-
 **6、UML时序图源码复杂样例：**
 
-```
 ```sequence
 Title: 标题：复杂使用
 对象A->对象B: 对象B你好吗?（请求）
@@ -621,11 +571,8 @@ Note over 小三,对象B: 我们是朋友
 participant C
 Note right of C: 没人陪我玩
 ```
-```
-
 **7、UML标准时序图样例：**
 
-```
 ```mermaid
 %% 时序图例子,-> 直线，-->虚线，->>实线箭头
   sequenceDiagram
@@ -640,11 +587,8 @@ Note right of C: 没人陪我玩
     王五->李四: 你怎么样?
     李四-->王五: 很好!
 ```
-```
-
 **8、甘特图样例：**
 
-```
 ```mermaid
 %% 语法示例
         gantt
@@ -668,5 +612,5 @@ Note right of C: 没人陪我玩
 ```
 # Markdown编辑数学公式
 
-具体详见[Mathjax]([Markdown数学公式语法 - 简书 (jianshu.com)](https://www.jianshu.com/p/e74eb43960a1))内容
+具体请详见[Mathjax]([Markdown数学公式语法 - 简书 (jianshu.com)](https://www.jianshu.com/p/e74eb43960a1))内容
 
